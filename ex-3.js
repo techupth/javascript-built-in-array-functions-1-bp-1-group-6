@@ -1,14 +1,14 @@
 const todos = [
-  { topic: "Doing pre-work", completed: true },
-  { topic: "Workout", completed: false },
-  { topic: "Playing computer games", completed: true },
-  { topic: "Relax", completed: false },
-  { topic: "Clean the room", completed: true },
+	{ topic: "Doing pre-work", completed: true },
+	{ topic: "Workout", completed: false },
+	{ topic: "Playing computer games", completed: true },
+	{ topic: "Relax", completed: false },
+	{ topic: "Clean the room", completed: true },
 ];
 
 function getTodoTopics(todos) {
-  // Start coding here
-  return todos.topic;
+	// Start coding here
+	return todos.topic;
 }
 
 let result = todos.map(getTodoTopics);

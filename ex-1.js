@@ -4,8 +4,8 @@ function getWordLengths(words) {
   // Start coding here
   let split = words.split("");
   let count = 0;
-  for (let i =0; i < split.length ; i++){
-    count++ 
+  for (let i = 0; i < split.length; i++) {
+    count++
   }
   return count;
 }
